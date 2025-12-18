@@ -1,8 +1,8 @@
-import { useLocale } from "next-intl";
+// import { useLocale } from "next-intl";
 
 
 export default function Home() {
-  const locale = useLocale();
+  // const locale = useLocale();
   return (
     <main id="main-content" className="focus:outline-none" tabIndex={-1}>
       <a
@@ -11,7 +11,7 @@ export default function Home() {
       >
         Skip to main c~ontent
       </a>
-      
+        good day
     </main>
   );
 }
