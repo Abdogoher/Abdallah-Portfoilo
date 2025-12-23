@@ -2,6 +2,7 @@ import { useLocale } from "next-intl";
 
 import Hero from "@/sections/Hero";
 import Skills from "@/sections/Skills";
+import Projects from "@/sections/Projects";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       </a>
       <Hero locale={locale} />
       <Skills />
+      <Projects locale={locale} />
     </main>
   );
 }
