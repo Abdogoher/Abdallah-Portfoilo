@@ -11,7 +11,6 @@ export interface project {
   featured: boolean;
 }
 
-
 export const projectsData: project[] = [
   {
     id: "E-commerce-full",
@@ -24,23 +23,34 @@ export const projectsData: project[] = [
     featured: true,
   },
   {
-    id: "E-commerce-ful",
-    title: "E-commerce-full",
-    descriptionKey: "E-commerce-full",
-    technologies: ["Next.js", "JavaScript", "Tailwind CSS", "Redux Toolkit"],
-    image: "/projects/E-commerce-full.png",
-    liveUrl: "https://e-commerce-full-nu.vercel.app",
-    githubUrl: "https://github.com/Abdogoher/E-commerce-full",
+    id: "Movies",
+    title: "Movies",
+    descriptionKey: "movies",
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "Bootstrap",
+      "Axios",
+      "Pagination",
+    ],
+    image: "/projects/Movies.png",
+    liveUrl: "https://movies-dun-ten.vercel.app/",
+    githubUrl: "https://github.com/Abdogoher/Movies",
     featured: true,
   },
   {
-    id: "E-commerce-fu",
-    title: "E-commerce-full",
-    descriptionKey: "E-commerce-full",
-    technologies: ["Next.js", "JavaScript", "Tailwind CSS", "Redux Toolkit"],
-    image: "/projects/E-commerce-full.png",
-    liveUrl: "https://e-commerce-full-nu.vercel.app",
-    githubUrl: "https://github.com/Abdogoher/E-commerce-full",
+    id: "koshari-eltahrir",
+    title: "koshari-eltahrir",
+    descriptionKey: "koshari-eltahrir",
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "Tailwind CSS CDN",
+      "Font Awesome",
+    ],
+    image: "/projects/koshari-eltahrir.png",
+    liveUrl: "https://koshari-eltahrir-ochre.vercel.app/",
+    githubUrl: "https://github.com/Abdogoher/koshari-eltahrir",
     featured: true,
   },
   {
@@ -64,4 +74,3 @@ export const projectsData: project[] = [
     featured: true,
   },
 ];
-  
