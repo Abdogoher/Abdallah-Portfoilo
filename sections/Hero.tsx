@@ -7,7 +7,7 @@ const Hero = ({ locale }: { locale: string }) => {
   const t = useTranslations("Hero");
   return (
     <section
-      className="container mx-auto px-4  py-16 md:py-24 flex md:flex-row items-center gap-12"
+      className="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center gap-12"
       aria-labelledby="hero-heading"
     >
       <motion.div
