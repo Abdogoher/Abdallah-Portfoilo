@@ -4,6 +4,7 @@ import Hero from "@/sections/Hero";
 import Skills from "@/sections/Skills";
 import Projects from "@/sections/Projects";
 import Contact from "@/sections/Contact";
+import Education from "@/sections/Education";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       </a>
       <Hero locale={locale} />
       <Skills />
+      <Education />
       <Projects locale={locale} />
       <Contact />
     </main>
