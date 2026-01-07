@@ -58,29 +58,27 @@
   "Experience": {
     "title": "Experience",
     "freelance": {
-      "title": "Freelance Front-End Developer",
-      "company": "Self-Employed",
-      "duration": "Mar 2025 - Present",
+      "title": "Front-End Develope - React.js",
+      "company": "SEF Academy",
+      "duration": "2025",
       "location": "Remote",
       "details": [
-        "Delivered custom landing pages, e-commerce websites, and UI for a health-tech AI platform",
-        "Developed scalable front-end solutions using React.js, Next.js, Tailwind CSS, TypeScript, React Query, Axios, Firebase, Stripe, and shadcn/ui",
-        "Integrated multi-language support and secure payment gateways, enhancing accessibility and user trust",
-        "Maintained strong client satisfaction with 100% 5-star reviews and a 70%+ return client rate",
-        "Collaborated with clients on Khamsat and Freelancer.com, driving measurable business growth"
+        "Delivered custom Web pages, e-commerce websites, and UI For User",
+        "Developed scalable front-end solutions using React.js, React Query, Axios, CSS3, HTML5 and LocalStorage",
+        "Building and developing responsive Websites on all devices"
       ]
     },
     "almdrasa": {
-      "title": "Front-End Developer Intern - React.js",
-      "company": "Almdrasa",
-      "duration": "May 2024 - Mar 2025",
+      "title": "Front-End Developer - Next.js",
+      "company": "Web MASTER",
+      "duration": " 2025 ",
       "location": "Remote",
       "details": [
-        "Built and deployed 20+ production-ready projects using React.js, Tailwind CSS, and SCSS",
-        "Integrated multi-language support, improving accessibility and user reach",
+        "Built and deployed several projects using React.js, Next.js, Tailwind CSS, and SCSS",
         "Enhanced UI responsiveness and performance, reducing load times by 20%",
-        "Integrated Stripe payments, handling secure transactions for over 100 daily users",
-        "Implemented real-time data fetching via APIs, boosting user interactivity"
+        "Implemented real-time data fetching via APIs, boosting user interactivity",
+        "Rebuilding old sites with the latest tools to improve user experience and performance quality, using frameworks and Bootstrap or Tailwind CSS.",
+        "Working with a team, dividing tasks, communicating, and uploading tasks via GitHub"
       ]
     }
   },
