@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import { Monitor, Settings } from "lucide-react";
+import { Monitor, Server, Settings } from "lucide-react";
 import Image from "next/image";
 
 export default function Skills() {
@@ -14,11 +14,11 @@ export default function Skills() {
       icon: Monitor,
       color: "from-blue-600 to-blue-700",
     },
-    // {
-    //   key: "backend",
-    //   icon: Server,
-    //   color: "from-green-600 to-green-700",
-    // },
+    {
+      key: "backend",
+      icon: Server,
+      color: "from-green-600 to-green-700",
+    },
     {
       key: "tools",
       icon: Settings,
@@ -65,7 +65,7 @@ export default function Skills() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {skillCategories.map((category, categoryIndex) => {
           const IconComponent = category.icon;
           const categoryData = t.raw(category.key);

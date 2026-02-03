@@ -175,8 +175,16 @@
           "icon": "api"
         },
         {
-          "name": "Firebase",
-          "icon": "firebase"
+          "name": "PostgreSQL",
+          "icon": "postgresql"
+        },
+        {
+          "name": "Express",
+          "icon": "express"
+        },
+        {
+          "name": "Prisma",
+          "icon": "prisma"
         }
       ]
     },
